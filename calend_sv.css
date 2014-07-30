@@ -1,0 +1,69 @@
+.calend_sv_div {
+	font-size: 1em;
+	line-height: 1em;
+	background: #222;
+	width: 11em;
+	height: 8.8em;
+	position: absolute;
+	left: 5em;
+	top: 5em;
+	cursor: default;
+	z-index: 10000;
+}
+
+.calend_sv_div .prev {
+	background: #600;
+	color: #ff0;
+	width: 1.5em;
+	height: 1em;
+	float: left;
+	text-align: center;
+	border-radius: 1em 0 0 1em;
+}
+
+.calend_sv_div .month {
+	margin-top: 0.05em;
+	background: #dd8;
+	color: #000;
+	width: 100%;
+	height: 1.1em;
+	text-align: center;
+}
+
+.calend_sv_div .next {
+	background: #600;
+	color: #ff0;
+	width: 1.5em;
+	height: 1em;
+	float: right;
+	text-align: center;
+	border-radius: 0 1em 1em 0;
+}
+
+.calend_sv_div .day {
+	width: 1.52em;
+	height: 1.1em;
+	float: left;
+	text-align: right;
+	color: #ddd;
+	cursor: pointer;
+}
+
+.calend_sv_div .day.today {
+	font-weight: bold;
+	color: #ff0;
+}
+
+.calend_sv_div .wday {
+	background: #000;
+	color: #dd8;
+	width: 1.52em;
+	height: 1.1em;
+	float: left;
+	text-align: center;
+}
+
+#calend_arrival, #calend_departure {
+	width:40%;
+	max-width:80px;
+}

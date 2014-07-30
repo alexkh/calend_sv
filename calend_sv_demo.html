@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+ <meta charset="utf-8" />
+ <link href="calend_sv.css" rel="stylesheet" type="text/css">
+ <script src="jquery.js"></script>
+ <script src="calend_sv.js"></script>
+</head>
+<body>
+Enter arrival date:
+<input id="arrival" type="text" value="arr" />
+Enter departure date:
+<input id="departure" type="text" value="dep" />
+<script>
+jQuery(document).ready(function () {
+	cal1 = new Calend_Sv(jQuery('#arrival'));
+	cal2 = new Calend_Sv(jQuery('#departure'));
+});
+</script>
+</body>
+</html>
